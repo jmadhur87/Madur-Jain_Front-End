@@ -1,0 +1,5 @@
+Ans.
+The simple List component is a tool that let to create a list of items in a React application. 
+We can customize how the list items look and highlight the one that the user selects. 
+It's an easy way to add a list of options to your app and manage the user's choices. Overall, 
+the component provides a simple way to render a list of items and manage their selection state.
