@@ -1,0 +1,6 @@
+. There are a few problems and warnings in the given code:
+
+i)	The prop types of the items prop of the WrappedListComponent component are not defined correctly.
+ii)	The selectedIndex state in the WrappedListComponent component is not initialized properly. It should be initialized to -1 instead of undefined or null.
+iii)	The onClickHandler prop of the SingleListItem component is not defined correctly. Instead of onClickHandler(index), it should be () => onClickHandler(index) to prevent the function.
+iv)	The isSelected prop of the SingleListItem component is not passed correctly. Instead of isSelected={selectedIndex}, it should be isSelected={selectedIndex === index}.	
